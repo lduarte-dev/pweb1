@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, redirect, url_for, session, f
 app = Flask(__name__)
 
 # Chave secreta para sessões (em produção, use uma chave mais segura)
-app.secret_key = 'sua_chave_secreta_aqui'
+app.secret_key = 'chave muito secreta:admin123'
 
 # Configuração dos produtos (simulando um banco de dados)
 app.config['PRODUTOS'] = {
